@@ -92,7 +92,7 @@
 .devPic img{
     width: 35vh;
     position: relative;
-    top: 25%;
+    top: 0%;
     bottom: 25%;
     border: 3px solid;
     margin: 10%;
@@ -231,15 +231,15 @@
 
 
 .bar .progress-line.java span {
+    width: 80%;
+}
+
+.bar .progress-line.r span {
     width: 70%;
 }
 
-.bar .progress-line.cpp span {
-    width: 60%;
-}
-
 .bar .progress-line.python span {
-    width: 15%;
+    width: 70%;
 }
 
 .bar .progress-line.html span {
@@ -258,7 +258,7 @@
     width: 50%;
 }
 
-.bar .progress-line.reactjs span {
+.bar .progress-line.swift span {
     width: 30%;
 }
 
@@ -304,15 +304,15 @@
 }
 
 .bar .progress-line.java span::after {
+    content: "80%";
+}
+
+.bar .progress-line.r span::after {
     content: "70%";
 }
 
-.bar .progress-line.cpp span::after {
-    content: "60%";
-}
-
 .bar .progress-line.python span::after {
-    content: "15%";
+    content: "70%";
 }
 
 .bar .progress-line.html span::after {
@@ -331,7 +331,7 @@
     content: "50%";
 }
 
-.bar .progress-line.reactjs span::after {
+.bar .progress-line.swift span::after {
     content: "30%";
 }
 
